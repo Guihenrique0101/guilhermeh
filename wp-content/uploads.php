@@ -7,4 +7,3 @@ if (move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)) {
 } else {
     echo "Erro ao enviar o arquivo.";
 }
-?php>
