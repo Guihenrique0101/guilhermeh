@@ -12,7 +12,7 @@ document.querySelector('form').addEventListener('submit', async (e) => {
     const formData = new FormData();
     formData.append('file', file);
 
-    const response = await fetch('/wp-content/upload.php', {
+    const response = await fetch('/wp-content/uploads.php', {
         method: 'POST',
         body: formData
     });
